@@ -1,3 +1,5 @@
+// 引入semantic-ui-css
+import 'semantic-ui-css/semantic.css'
 // 引入定义好的组件
 import MyButton from './button/button.vue'
 

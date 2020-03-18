@@ -1,14 +1,17 @@
 {
-  "name": "jinjie01",
-  "version": "0.1.0",
-  "private": true,
+  "name": "demo-btn",
+  "version": "0.0.1",
+  "private": false,
+  "main": "lib/demo-btn.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "b": "vue-cli-service build --target lib --name demo-btn --dest lib ./packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "semantic-ui-css": "^2.4.1",
     "vue": "^2.6.11",
     "vue-router": "^3.1.5"
   },
