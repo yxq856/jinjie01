@@ -1,6 +1,6 @@
 {
   "name": "demo-btn",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "private": false,
   "main": "lib/demo-btn.umd.min.js",
   "scripts": {
@@ -10,12 +10,13 @@
     "b": "vue-cli-service build --target lib --name demo-btn --dest lib ./packages/index.js"
   },
   "dependencies": {
-    "core-js": "^3.6.4",
-    "semantic-ui-css": "^2.4.1",
-    "vue": "^2.6.11",
-    "vue-router": "^3.1.5"
+    "semantic-ui-css": "^2.4.1"
+
   },
   "devDependencies": {
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.5",
     "@vue/cli-plugin-babel": "^4.2.0",
     "@vue/cli-plugin-eslint": "^4.2.0",
     "@vue/cli-plugin-router": "^4.2.0",

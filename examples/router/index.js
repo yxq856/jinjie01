@@ -22,7 +22,23 @@ const routes = [
     path: '/pageDivider',
     name: 'PageDivider',
     component: () => import('../views/PageDivider.vue')
+  },
+  {
+    path: '/pageSlider',
+    name: 'PageSlider',
+    component: () => import('../views/PageSlider.vue')
+  },
+  {
+    path: '/pageHeadline',
+    name: 'PageHeadline',
+    component: () => import('../views/PageHeadline.vue')
+  },
+  {
+    path: '/pageDialog',
+    name: 'PageDialog',
+    component: () => import('../views/PageDialog.vue')
   }
+
 ]
 
 const router = new VueRouter({
